@@ -4,7 +4,7 @@ from selenium import webdriver
 from getpass import getpass
 
 # Setting User ID, Email or Ph. No.
-userId = "sonusantu64@gmail.com"
+userId = "<YOUR USERNAME>"
 
 # Getting Password via getpass()
 password = getpass("Enter Password: ")
