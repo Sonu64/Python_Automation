@@ -21,7 +21,8 @@ if preferredSSID not in savedProfiles:
     input("Press the ENTER key to exit...")
     sys.exit()
 
-# Otherwise continue to check untill an available network is not found
+# Otherwise continue to check untill an available network is found
+# You can add extra variables to check only for 10 minutes or whatever
 while True:
     avail = os.popen("netsh wlan show networks").read()
     # If the preffered SSID is available to connect to
